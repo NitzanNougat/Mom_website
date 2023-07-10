@@ -759,8 +759,8 @@ section {
 
 .services .section-title p{
   white-space: pre;
-  color:black;
-  text-orientation: sideways;
+  color: black;
+  text-align: right;
 }
 
 .services .icon-box:hover .title a {
