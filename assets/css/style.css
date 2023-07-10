@@ -757,6 +757,11 @@ section {
   border-color: #ffb727;
 }
 
+.services p{
+  color:green;
+  white-space: pre;
+}
+
 .services .icon-box:hover .title a {
   color: #ffb727;
 }
