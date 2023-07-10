@@ -603,7 +603,7 @@ section {
 }
 
 .about .image {
-  background: url("../img/me.jpeg") center center no-repeat;
+  background: url("../img/me.jpg") center center no-repeat;
   background-size: cover;
   min-height: 500px;
 }
@@ -759,7 +759,7 @@ section {
 
 .services .section-title p{
   white-space: pre;
-  text-orientation: sideways;
+  color:yellow;
 }
 
 .services .icon-box:hover .title a {
