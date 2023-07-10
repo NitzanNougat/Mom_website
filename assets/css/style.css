@@ -758,8 +758,8 @@ section {
 }
 
 .services .section-title p{
-  color:green;
   white-space: pre;
+  text-orientation: sideways;
 }
 
 .services .icon-box:hover .title a {
