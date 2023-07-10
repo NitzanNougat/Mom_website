@@ -757,7 +757,7 @@ section {
   border-color: #ffb727;
 }
 
-.services p{
+.services .section-title p{
   color:green;
   white-space: pre;
 }
