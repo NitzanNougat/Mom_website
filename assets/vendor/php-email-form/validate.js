@@ -7,7 +7,7 @@
   "use strict";
 
   let forms = document.querySelectorAll('.php-email-form');
-
+  conseol.log("New New")
   forms.forEach( function(e) {
     e.addEventListener('submit', function(event) {
       event.preventDefault();
@@ -53,7 +53,7 @@
     fetch(action, {
       method: 'POST',
       body: formData,
-      headers: {'X-Requested-With': 'XMLHttpRequest'}
+      headers: {'Accept': 'application/javascript'}
     })
     .then(response => {
       if( response.ok ) {
@@ -72,6 +72,7 @@
       }
     })
     .catch((error) => {
+      console.log("test")
       displayError(thisForm, error);
     });
   }
